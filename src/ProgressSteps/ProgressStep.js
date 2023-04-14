@@ -34,7 +34,7 @@ class ProgressStep extends Component {
     };
 
     const btnTextStyle = {
-      color: '#007AFF',
+      color: '#FFFFFF',
       fontSize: 18,
       ...this.props.nextBtnTextStyle
     };
@@ -67,7 +67,7 @@ class ProgressStep extends Component {
     };
 
     const btnTextStyle = {
-      color: '#007AFF',
+      color: '#FFFFFF',
       fontSize: 18,
       ...this.props.previousBtnTextStyle
     };

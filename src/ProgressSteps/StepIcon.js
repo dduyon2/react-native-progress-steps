@@ -9,8 +9,8 @@ class StepIcon extends Component {
     if (this.props.isActiveStep) {
       styles = {
         circleStyle: {
-          width: 40,
-          height: 40,
+          width: 30,
+          height: 30,
           borderRadius: 20,
           backgroundColor: this.props.activeStepIconColor,
           borderColor: this.props.activeStepIconBorderColor,
@@ -19,7 +19,7 @@ class StepIcon extends Component {
         },
         circleText: {
           alignSelf: 'center',
-          top: 20 / 3,
+          top: 18 / 3,
         },
         labelText: {
           textAlign: 'center',
@@ -32,9 +32,9 @@ class StepIcon extends Component {
         },
         leftBar: {
           position: 'absolute',
-          top: 40 / 2.22,
+          top: 24 / 2,
           left: 0,
-          right: 40 + 8,
+          right: 30 + 8,
           borderTopStyle: this.props.borderStyle,
           borderTopWidth: this.props.borderWidth,
           borderTopColor: this.props.completedProgressBarColor,
@@ -42,9 +42,9 @@ class StepIcon extends Component {
         },
         rightBar: {
           position: 'absolute',
-          top: 40 / 2.22,
+          top: 24 / 2,
           right: 0,
-          left: 40 + 8,
+          left: 30 + 8,
           borderTopStyle: this.props.borderStyle,
           borderTopWidth: this.props.borderWidth,
           borderTopColor: this.props.progressBarColor,
@@ -57,8 +57,8 @@ class StepIcon extends Component {
     } else if (this.props.isCompletedStep) {
       styles = {
         circleStyle: {
-          width: 36,
-          height: 36,
+          width: 25,
+          height: 25,
           borderRadius: 18,
           backgroundColor: this.props.completedStepIconColor,
         },
@@ -78,9 +78,9 @@ class StepIcon extends Component {
         },
         leftBar: {
           position: 'absolute',
-          top: 36 / 2,
+          top: 24 / 2,
           left: 0,
-          right: 36 + 8,
+          right: 30 + 8,
           borderTopStyle: this.props.borderStyle,
           borderTopWidth: this.props.borderWidth,
           borderTopColor: this.props.completedProgressBarColor,
@@ -88,9 +88,9 @@ class StepIcon extends Component {
         },
         rightBar: {
           position: 'absolute',
-          top: 36 / 2,
+          top: 24 / 2,
           right: 0,
-          left: 36 + 8,
+          left: 30 + 8,
           borderTopStyle: this.props.borderStyle,
           borderTopWidth: this.props.borderWidth,
           borderTopColor: this.props.completedProgressBarColor,
@@ -103,14 +103,14 @@ class StepIcon extends Component {
     } else {
       styles = {
         circleStyle: {
-          width: 36,
-          height: 36,
+          width: 25,
+          height: 25,
           borderRadius: 18,
           backgroundColor: this.props.disabledStepIconColor,
         },
         circleText: {
           alignSelf: 'center',
-          top: 18 / 2,
+          top: 10 / 2,
         },
         labelText: {
           textAlign: 'center',
@@ -124,9 +124,9 @@ class StepIcon extends Component {
         },
         leftBar: {
           position: 'absolute',
-          top: 36 / 2,
+          top: 24 / 2,
           left: 0,
-          right: 36 + 8,
+          right: 30 + 8,
           borderTopStyle: this.props.borderStyle,
           borderTopWidth: this.props.borderWidth,
           borderTopColor: this.props.progressBarColor,
@@ -134,9 +134,9 @@ class StepIcon extends Component {
         },
         rightBar: {
           position: 'absolute',
-          top: 36 / 2,
+          top: 24 / 2,
           right: 0,
-          left: 36 + 8,
+          left: 30 + 8,
           borderTopStyle: this.props.borderStyle,
           borderTopWidth: this.props.borderWidth,
           borderTopColor: this.props.progressBarColor,
